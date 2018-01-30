@@ -1,0 +1,164 @@
+/*Universal*/
+body {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+}
+a {
+color: seashell;
+text-decoration: underline;
+}
+nav span {
+  display: inline-block;
+  padding-right: 20px;
+
+}
+h2, h4 {
+  text-align: center;
+}
+/*Header*/
+header {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  margin-top: -27px;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+#logo {
+  width: auto;
+  height: 50px;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+
+}
+/*Main Part*/
+/*Part 1*/
+#mission {
+  width: auto;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+  background-clip: border-box;
+
+}
+#mission .textmission {
+  text-align: center;
+  background-color: black;
+  position: relative;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+/*Part 2*/
+.middlecontainer {
+
+
+}
+.middlespaicer {
+  margin-top: 50px;
+}
+.middlemain {
+}
+.middlecards{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imagemonth {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: black;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 23px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+#BizarreTea{
+  width: 224.9px;
+  height: 150px;
+}
+#berry{
+  width: 224.9px;
+  height: 150px;
+}
+#donut{
+  width: 224.9px;
+  height: 150px;
+}
+#myrtle{
+  width: 224.9px;
+  height: 150px;
+}
+#spiced{
+  width: 224.9px;
+  height: 150px;
+}
+
+.teakind {
+  margin-top: 10px;
+}
+#lexteamonthheade {
+
+}
+/*Part 3*/
+.container {
+  margin: 0 0;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: 110%;
+  background-position: right -70px;
+  max-width: auto;
+  height: 500px;
+}
+/*.spacer {
+  }
+.main {
+}*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.blackbox {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  margin-top: 15px;
+  opacity: 1;
+  }
+  #flexlocationheade {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+    }
+
+/*footer*/
+.info{
+  text-align: center;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
